@@ -1,0 +1,137 @@
+/*début reset CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*fin du reset CSS*/
+
+#my-vid {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background-size: contain;
+    overflow: hidden;
+}
+body{
+    color: white;
+    font-size: 16px;
+    font-family: 'Cinzel','Times New Roman', Times, serif;
+    background: url(assets/milky-way-1030765_1920.jpg) no-repeat;
+    background-attachment: fixed;
+    object-fit: fill;
+}
+
+h1 {
+    font-size: 2em;
+    vertical-align: text-top;
+}
+
+h2 {
+    margin-top: 23vh;
+    padding: 20px;
+    font-size: 2.5em;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+}
+.maj {
+    font-size: 1.25em;
+}
+.dot1{
+    color: orange;
+    font-size: 3.5em;
+}
+
+.dot{
+    color: orange;
+    font-size: 3em;
+}
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+footer {
+    text-align: right;
+    padding-right: 15px;
+}
+main {
+    height: 60vh;
+    text-align: center;
+}
+#link-home {
+    text-decoration: none;
+    color: orange;
+    padding: 10px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+    background-color: rgba(248, 248, 255, .1);
+    border: 1px solid orange;
+    border-radius: 7px;
+}
+#link-home:hover {
+    font-weight : bold;
+    box-shadow: 1px 1px 1px orange;
+}
+#a-nav {
+    text-decoration: none;
+    height: 20px;
+    color: white;
+    position: relative;
+    top : 50%;
+    padding: 10px;
+}
+#a-nav:hover {
+    border: 1px solid orange;
+    border-radius: 7px;
+}
+.brand-container {
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle 
+}
