@@ -44,6 +44,8 @@ table {
 }
 /*fin du reset CSS*/
 
+
+
 #my-vid {
     position: fixed; right: 0; bottom: 0;
     min-width: 100%; min-height: 100%;
@@ -51,27 +53,24 @@ table {
     background-size: contain;
     overflow: hidden;
 }
+
 body{
+    height: 99vh;
     color: white;
     font-size: 16px;
     font-family: 'Cinzel','Times New Roman', Times, serif;
     background: url(assets/milky-way-1030765_1920.jpg) no-repeat;
     background-attachment: fixed;
     object-fit: fill;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-h1 {
+div > h1 {
     font-size: 2em;
-    vertical-align: text-top;
 }
 
-h2 {
-    margin-top: 23vh;
-    padding: 20px;
-    font-size: 2.5em;
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black;
-}
 .maj {
     font-size: 1.25em;
 }
@@ -84,39 +83,23 @@ h2 {
     color: orange;
     font-size: 3em;
 }
+
+/*layout header*/
 header {
     height: 100px;
     display: flex;
     justify-content: space-between;
     text-align: center;
-    padding: 15px;
+    padding: 0 20px;
 }
 nav {
     display: flex;
     justify-content: space-around;
     width: 500px;
 }
-footer {
-    text-align: right;
-    padding-right: 15px;
-}
-main {
-    height: 60vh;
-    text-align: center;
-}
-#link-home {
-    text-decoration: none;
-    color: orange;
-    padding: 10px;
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black;
-    background-color: rgba(248, 248, 255, .1);
-    border: 1px solid orange;
-    border-radius: 7px;
-}
-#link-home:hover {
-    font-weight : bold;
-    box-shadow: 1px 1px 1px orange;
+.brand-container {
+    height: 50px;
+    display: table; 
 }
 #a-nav {
     text-decoration: none;
@@ -130,8 +113,71 @@ main {
     border: 1px solid orange;
     border-radius: 7px;
 }
-.brand-container {
-    height: 50px;
-    display: table-cell;
-    vertical-align: middle 
+.here {
+    background-color: rgba(248, 248, 255, .1);
+    border-radius: 7px;
+}
+
+/*layout footer*/
+.footer-home > div {
+    width: 100%;
+}
+.footer-home > div p {
+    text-align: right;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+footer > .site-map {
+    display: flex;
+    justify-content: space-between;
+}
+.site-map > p {
+    padding: 0 15px;
+}
+#a-footer {
+    text-decoration: none;
+    color : white;
+    padding: 0 15px;
+}
+#a-footer:hover {
+    color: orange;
+}
+
+
+
+
+/*layout index.html*/
+main {
+    height: 29vh;
+    text-align: center;
+}
+.slogan > h2 {
+    margin-bottom: 25px;
+    font-size: 2.5em;
+    text-shadow: -1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black;
+}
+div > #link-home {
+    text-decoration: none;
+    color: orange;
+    padding: 10px;
+    text-shadow: -1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black;
+    background-color: rgba(248, 248, 255, .1);
+    border: 1px solid orange;
+    border-radius: 7px;
+}
+#link-home:hover {
+    font-weight : bold;
+    box-shadow: 1px 1px 1px orange;
+}
+
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.6em;
 }
