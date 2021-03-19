@@ -151,12 +151,13 @@ footer > .site-map {
 
 /*layout index.html*/
 main {
-    height: 70vh;
+    height: 72vh;
     text-align: center;
     overflow: hidden;
 }
 .slogan > h2 {
     margin-bottom: 25px;
+    margin-top: 11%;
     font-size: 2.5em;
     text-shadow: -1px 0 black, 0 1px black,
     1px 0 black, 0 -1px black;
@@ -188,6 +189,9 @@ h2 {
 .container {
     margin-right:300px;
     margin-left: 300px;
+}
+.container > h1{
+    margin-bottom: 9px;
 }
 
 input[type=text], select, textarea {
