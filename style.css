@@ -151,8 +151,9 @@ footer > .site-map {
 
 /*layout index.html*/
 main {
-    height: 29vh;
+    height: 70vh;
     text-align: center;
+    overflow: hidden;
 }
 .slogan > h2 {
     margin-bottom: 25px;
@@ -181,3 +182,43 @@ h1 {
 h2 {
     font-size: 1.6em;
 }
+
+/* style css form*/
+
+.container {
+    margin-right:300px;
+    margin-left: 300px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  /* bouton  */
+  input[type=submit] {
+    background-color: rgba(255, 165, 0, .65);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* hover bouton */
+  input[type=submit]:hover {
+    background-color: orange;
+  }
+  
+  /* background color autour du form */
+  .container {
+    border-radius: 5px;
+    background-color: rgba(248, 248, 255, .1);
+    padding: 20px;
+  }
