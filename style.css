@@ -101,7 +101,7 @@ nav {
     height: 50px;
     display: table; 
 }
-#a-nav {
+.a-nav {
     text-decoration: none;
     height: 20px;
     color: white;
@@ -109,7 +109,7 @@ nav {
     top : 50%;
     padding: 10px;
 }
-#a-nav:hover {
+.a-nav:hover {
     border: 1px solid orange;
     border-radius: 7px;
 }
@@ -137,12 +137,13 @@ footer > .site-map {
 .site-map > p {
     padding: 0 15px;
 }
-#a-footer {
+.a-footer {
     text-decoration: none;
     color : white;
     padding: 0 15px;
+    margin-top: 3px;
 }
-#a-footer:hover {
+.a-footer:hover {
     color: orange;
 }
 
