@@ -192,7 +192,7 @@ header li a {
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: right;
+  float: right; /*à garder permet d'avoir le menu à droite*/
   padding: 28px 20px;
   position: relative;
   user-select: none;
