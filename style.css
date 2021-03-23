@@ -184,7 +184,7 @@ nav {
   height: 50px;
   display: table;
 }
-#a-nav {
+.a-nav {
   text-decoration: none;
   height: 20px;
   color: white;
@@ -192,7 +192,7 @@ nav {
   top: 50%;
   padding: 10px;
 }
-#a-nav:hover {
+.a-nav:hover {
   border: 1px solid orange;
   border-radius: 7px;
 }
@@ -220,30 +220,26 @@ footer > .site-map {
 .site-map > p {
   padding: 0 15px;
 }
-#a-footer {
+.a-footer {
   text-decoration: none;
   color: white;
   padding: 0 15px;
 }
-#a-footer:hover {
-  color: orange;
+.a-footer:hover {
+  color: #ffa500;
 }
 
 /*layout index.html*/
 main {
   text-align: center;
 }
-.slogan > h2 {
-  margin-bottom: 25px;
-  font-size: 2.5em;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  height: 72vh;
-  text-align: center;
-  overflow: hidden;
+.slogan {
+  height: 100vh;
 }
 .slogan > h2 {
+  height: 200px;
   margin-bottom: 25px;
-  margin-top: 11%;
+  /*margin-top: 11%;*/
   font-size: 2.5em;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
