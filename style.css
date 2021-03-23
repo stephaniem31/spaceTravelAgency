@@ -237,16 +237,15 @@ main {
   margin-bottom: 25px;
   font-size: 2.5em;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    height: 72vh;
-    text-align: center;
-    overflow: hidden;
+  height: 72vh;
+  text-align: center;
+  overflow: hidden;
 }
 .slogan > h2 {
-    margin-bottom: 25px;
-    margin-top: 11%;
-    font-size: 2.5em;
-    text-shadow: -1px 0 black, 0 1px black,
-    1px 0 black, 0 -1px black;
+  margin-bottom: 25px;
+  margin-top: 11%;
+  font-size: 2.5em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 div > #link-home {
   text-decoration: none;
@@ -273,17 +272,57 @@ h2 {
 
 .swiper-container {
   width: 100%;
-  height: 70%;
+  height: 270px;
   background: #000;
   margin-top: 60px;
 }
 
 .swiper-slide {
   font-size: 18px;
-  color: #fff;
+  color: rgb(236, 240, 178);
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 40px 60px;
+}
+
+#earth {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px,
+    #000000 1px -1px;
+}
+
+#moon {
+  color: #e2cb8cd7;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px,
+    #000000 1px -1px;
+}
+
+#mars {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px,
+    #000000 1px -1px;
+}
+
+#saturn {
+  color: rgb(253, 251, 253);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px,
+    #000000 1px -1px;
+}
+
+#saturn2 {
+  color: rgb(245, 237, 164);
+  font-family: Cinzel;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px,
+    #000000 1px -1px;
 }
 
 .parallax-bg {
@@ -298,18 +337,20 @@ h2 {
 }
 
 .swiper-slide .title {
-  font-size: 41px;
+  font-size: 60px;
   font-weight: 300;
 }
 
 .swiper-slide .subtitle {
-  font-size: 21px;
+  font-size: 25px;
+  font-family: century gothic;
 }
 
 .swiper-slide .text {
-  font-size: 14px;
+  font-size: 18px;
   max-width: 400px;
   line-height: 1.3;
+  padding-left: 600px;
 }
 
 .bg-container {
@@ -320,51 +361,48 @@ h2 {
   margin: 100px auto;
   flex-direction: column;
 }
-/*    font-size: 1.6em;
-}*/
 
 /* style css form*/
 
 .container {
-    
-    margin-right:15%;
-    margin-left: 15%;
-    margin-top: 35px;
-    margin-bottom: 35px;
+  margin-right: 300px;
+  margin-left: 300px;
 }
-.container > h1{
-    margin-bottom: 9px;
+.container > h1 {
+  margin-bottom: 9px;
 }
 
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px;
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-  
-  /* bouton  */
-  input[type=submit] {
-    background-color: rgba(255, 165, 0, .65);
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* hover bouton */
-  input[type=submit]:hover {
-    background-color: orange;
-  }
-  
-  /* background color autour du form */
-  .container {
-    border-radius: 5px;
-    background-color: rgba(248, 248, 255, .1);
-    padding: 20px;
-  }
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* bouton  */
+input[type="submit"] {
+  background-color: rgba(255, 165, 0, 0.65);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* hover bouton */
+input[type="submit"]:hover {
+  background-color: orange;
+}
+
+/* background color autour du form */
+.container {
+  border-radius: 5px;
+  background-color: rgba(248, 248, 255, 0.1);
+  padding: 20px;
+}
