@@ -410,6 +410,7 @@ h2 {
   margin-bottom: 20px;
 }
 
+
 /* style css form*/
 
 .container {
@@ -449,6 +450,51 @@ input[type="submit"] {
 /* hover bouton */
 input[type="submit"]:hover {
   background-color: orange;
+}
+
+/*form.php layout*/
+.postcard {
+  width: 70%;
+  margin: 75px auto;
+  background-color: rgba(248, 248, 255, 0.1);
+  padding: 10px 70px 60px 70px;
+}
+
+#imgpostcard {
+  width: 80%;
+  display: block;
+  margin: 45px auto 0 auto;
+}
+
+.text-postcard {
+  width: 20%;
+  height: 50%;
+  position: fixed;
+  top: 22vh;
+  left: 25vw;
+  color: #101010;
+  font-size: 2em;
+  font-family: 'Dancing Script', cursive;
+
+}
+.text-postcard > p {
+  margin: 35px 0;
+}
+
+.deco-postcard {
+  position: fixed;
+  top: 41.5vh;
+  left: 50vw;
+}
+
+#bench-video {
+  height: 375px;
+}
+#stamp {
+  height: 175px;
+  position: fixed;
+  top: 21.5vh;
+  left: 67.5vw;
 }
 
 
