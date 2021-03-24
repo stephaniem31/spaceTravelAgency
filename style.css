@@ -191,7 +191,6 @@ header li a {
   
 .header .menu-icon {
   cursor: pointer;
-  display: inline-block;
   float: right; /*à garder permet d'avoir le menu à droite*/
   padding: 28px 20px;
   position: relative;
@@ -278,6 +277,9 @@ footer > .social-link {
 }
 
 /*layout index.html*/
+#home-view {
+  height: 100vh;
+}
 main {
   text-align: center;
 }
@@ -294,9 +296,6 @@ main {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.sloganText {
-  display: inline-flex;
-}
 div > #link-home {
   text-decoration: none;
   color: orange;
@@ -488,17 +487,9 @@ input[type="submit"]:hover {
   .swiper-slide .text {
     padding-left: 0;
   }
-  .bg-container {
-    width: 95%;
-    margin-top: 10px;
-    padding: 10px 0 60px 0;
-  }
   .bg-container > h1 {
     margin-left: 15px;
     margin-right: 15px;
-  }
-  .swiper-container {
-    width: 80%;
   }
   .container {
     margin-top: 10px;
