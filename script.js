@@ -20,7 +20,7 @@ function extraire() {
      if ( I < message1.length ) setTimeout(extraire, 151);
      }
 I = 0 ;
-message1 = "-stop-We Make-stop--stop--stop- Your Dream-stop--stop--stop- Come True";
+message1 = "-stop-stop-We Make-stop--stop--stop- Your Dream-stop--stop--stop- Come True";
 extraire();
 
  
