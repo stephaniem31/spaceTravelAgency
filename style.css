@@ -336,43 +336,38 @@ h2 {
 }
 
 #earth {
+  color: black;
+  font-family: inherit;
+  text-shadow: white 1px 1px, white -1px 1px, white -1px -1px,
+  white 2px -2px;
+}
+
+.p-earth {
   color: white;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 18px;
-  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px,
-    #000000 1px -1px;
+  font-family: inherit;
+  text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,
+  black 2px -2px;
 }
 
 #moon {
-  color: #e2cb8cd7;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 18px;
-  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px,
-    #000000 1px -1px;
+  color: white;
+  font-family: inherit;
+  text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,
+  black 2px -2px;
 }
 
 #mars {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px,
-    #000000 1px -1px;
+  color: white;
+  font-family: inherit;
+  text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,
+  black 2px -2px;
 }
 
 #saturn {
-  color: rgb(253, 251, 253);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px,
-    #000000 1px -1px;
-}
-
-#saturn2 {
-  color: rgb(245, 237, 164);
-  font-family: Cinzel;
-  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px,
-    #000000 1px -1px;
+  color: white;
+  font-family: inherit;
+  text-shadow: black 1px 1px, black -1px 1px, black -1px -1px,
+  black 2px -2px;
 }
 
 .parallax-bg {
@@ -400,7 +395,7 @@ h2 {
   font-size: 18px;
   max-width: 400px;
   line-height: 1.3;
-  padding-left: 70%;
+  padding-left: 60%;
 }
 
 .bg-container {
