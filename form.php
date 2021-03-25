@@ -23,13 +23,15 @@
             <p>Space Travel Agency.</p>'
             ?>
         </div>
-        <img src="assets/postcard.png" alt="postcard image" id="imgpostcard">
-        <div class="deco-postcard">
+        <img src="assets/postcard.svg" alt="postcard image" id="imgpostcard">
+        <!-- <div class="deco-postcard">
             <video autoplay loop muted id="bench-video">
                 <source src="assets/travel.mp4" type="video/mp4" />
             </video>
         </div>
+        <div class="stamp-container">
         <img src="assets/stamp.png" alt="stamp logo" id="stamp">
+        </div> -->
     </div>
 </body>
 

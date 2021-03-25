@@ -470,8 +470,8 @@ input[type="submit"]:hover {
   width: 20%;
   height: 50%;
   position: fixed;
-  top: 22vh;
-  left: 25vw;
+  top: 22%;
+  left: 25%;
   color: #101010;
   font-size: 2em;
   font-family: 'Dancing Script', cursive;
@@ -483,18 +483,20 @@ input[type="submit"]:hover {
 
 .deco-postcard {
   position: fixed;
-  top: 41.5vh;
-  left: 50vw;
+  top: 40%;
+  left: 50%;
 }
 
 #bench-video {
-  height: 375px;
+  width: 60%;
 }
 #stamp {
-  height: 175px;
+  width: 38%;
+}
+.stamp-container {
   position: fixed;
-  top: 21.5vh;
-  left: 67.5vw;
+  top: 20%;
+  left: 67.5%;
 }
 
 
