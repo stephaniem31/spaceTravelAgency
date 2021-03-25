@@ -278,7 +278,9 @@ footer > .social-link {
 
 /*layout index.html*/
 #home-view {
+  
   height: 100vh;
+  
 }
 main {
   text-align: center;
@@ -453,52 +455,31 @@ input[type="submit"]:hover {
 }
 
 /*form.php layout*/
-.postcard {
-  width: 70%;
+
+/*.postcard {
+  width: 80%;
   margin: 75px auto;
   background-color: rgba(248, 248, 255, 0.1);
   padding: 10px 70px 60px 70px;
-}
-
-#imgpostcard {
-  width: 80%;
-  display: block;
-  margin: 45px auto 0 auto;
-}
-
+}*/
 .text-postcard {
-  width: 20%;
-  height: 50%;
-  position: fixed;
-  top: 22%;
-  left: 25%;
-  color: #101010;
-  font-size: 2em;
-  font-family: 'Dancing Script', cursive;
-
+  width: auto;
+  text-align: center;
 }
-.text-postcard > p {
-  margin: 35px 0;
-}
-
-.deco-postcard {
-  position: fixed;
-  top: 40%;
-  left: 50%;
-}
-
-#bench-video {
-  width: 60%;
-}
-#stamp {
-  width: 38%;
-}
-.stamp-container {
-  position: fixed;
+.text {
+  position: absolute;
   top: 20%;
-  left: 67.5%;
+  left: 35%;
+  width: 30%;
+  font-size: 2em;
+  color: #000;
 }
-
+.text > p {
+  margin: 25px 0;
+}
+#image {
+   max-width: 100%;
+}
 
 
 /*responsive spread nav link*/
@@ -542,4 +523,52 @@ input[type="submit"]:hover {
   .container {
     margin-top: 10px;
   }
+}
+/*media Query form.php*/
+
+@media screen and (max-width:460px) {
+  .text {
+       top: 15%;
+       left: 15%;
+       width: 70%;
+       /font-size to be determined,
+ l'espace entre les § to be determined/
+  }
+}
+
+@media (min-width: 461px) and (max-width: 650px) {
+  .text {
+       top: 15%;
+       left: 10%;
+       width: 80%;
+       /font-size to be determined,
+ l'espace entre les § to be determined/
+  }
+}
+@media (min-width: 651px) and (max-width: 1000px) {
+       .text {
+            top: 20%;
+            left: 20%;
+            width: 60%;
+            /font-size to be determined,
+ l'espace entre les § to be determined/
+       }
+}
+@media (min-width: 1001px) and (max-width: 1200px) {
+ .text {
+      top: 20%;
+      left: 25%;
+      width: 52%;
+      /font-size to be determined,
+l'espace entre les § to be determined/
+ }
+}
+@media (min-width: 1201px) and (max-width: 1450px) {
+ .text {
+      top: 20%;
+      left: 31%;
+      width: 38%;
+      /font-size to be determined,
+l'espace entre les § to be determined/
+ }
 }

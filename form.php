@@ -13,26 +13,22 @@
 </head>
 
 <body id="home-view">
-    <div class="postcard">
+     <div class="postcard">
         <div class="text-postcard">
+               <img src="assets/parchemin.png" alt="" id="image">
+               <div class='text'>
+
             <?php
+
             echo '<p>Dear ' . $_GET['firstname'] . ',</p>
             <p>Thank you very much for your request about your next destination : ' . $_GET['destination'] . '.</p>
             <p>We will get back to you as soon as possible on your email address : ' . $_GET['user_email'] . '</p>
             <p>Best regards,</p>
             <p>Space Travel Agency.</p>'
             ?>
+               </div>
         </div>
-        <img src="assets/postcard.svg" alt="postcard image" id="imgpostcard">
-        <!-- <div class="deco-postcard">
-            <video autoplay loop muted id="bench-video">
-                <source src="assets/travel.mp4" type="video/mp4" />
-            </video>
-        </div>
-        <div class="stamp-container">
-        <img src="assets/stamp.png" alt="stamp logo" id="stamp">
-        </div> -->
-    </div>
+     </div>
 </body>
 
 </html>
