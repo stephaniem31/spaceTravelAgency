@@ -466,6 +466,7 @@ input[type="submit"]:hover {
 .text-postcard {
   width: auto;
   text-align: center;
+  font-family: 'Dancing Script', cursive;
 }
 .textCard {
   position: absolute;
