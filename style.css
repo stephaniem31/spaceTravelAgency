@@ -462,11 +462,12 @@ input[type="submit"]:hover {
   background-color: rgba(248, 248, 255, 0.1);
   padding: 10px 70px 60px 70px;
 }*/
+
 .text-postcard {
   width: auto;
   text-align: center;
 }
-.text {
+.textCard {
   position: absolute;
   top: 20%;
   left: 35%;
@@ -474,11 +475,13 @@ input[type="submit"]:hover {
   font-size: 2em;
   color: #000;
 }
-.text > p {
+.textCard > p {
   margin: 25px 0;
 }
 #image {
-   max-width: 100%;
+  max-width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 
@@ -526,49 +529,59 @@ input[type="submit"]:hover {
 }
 /*media Query form.php*/
 
-@media screen and (max-width:460px) {
-  .text {
+@media screen and (max-width:465px) {
+  .textCard {
        top: 15%;
        left: 15%;
        width: 70%;
-       /font-size to be determined,
- l'espace entre les § to be determined/
-  }
+       font-size:1em;
+      }
+      .textCard > p {
+       margin: 49px 0;
+     }
 }
 
-@media (min-width: 461px) and (max-width: 650px) {
-  .text {
+@media (min-width: 465px) and (max-width: 650px) {
+  .textCard {
        top: 15%;
        left: 10%;
        width: 80%;
-       /font-size to be determined,
- l'espace entre les § to be determined/
-  }
+       font-size:1.4em;
+      }
+      .textCard > p {
+       margin: 45px 0;
+     }
 }
 @media (min-width: 651px) and (max-width: 1000px) {
-       .text {
+       .textCard {
             top: 20%;
             left: 20%;
             width: 60%;
-            /font-size to be determined,
- l'espace entre les § to be determined/
-       }
-}
+            font-size:1.7em;
+          }
+          .textCard > p {
+           margin: 33px 0;
+         }
+        }
 @media (min-width: 1001px) and (max-width: 1200px) {
- .text {
+   .textCard {
       top: 20%;
-      left: 25%;
-      width: 52%;
-      /font-size to be determined,
-l'espace entre les § to be determined/
- }
+     left: 24%;
+     width: 52%;
+    font-size:1.9em;
+     }
+    .textCard > p {
+       margin: 35px 0;
+    }
 }
 @media (min-width: 1201px) and (max-width: 1450px) {
- .text {
-      top: 20%;
-      left: 31%;
-      width: 38%;
-      /font-size to be determined,
-l'espace entre les § to be determined/
- }
+  .textCard {
+    top: 10%;
+    left: 31%;
+    width: 38%;
+    font-size:2.3em;
+  }
+  .textCard > p {
+    margin: 20px 0;
+  }
 }

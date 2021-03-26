@@ -16,7 +16,7 @@
      <div class="postcard">
         <div class="text-postcard">
                <img src="assets/parchemin.png" alt="" id="image">
-               <div class='text'>
+               <div class='textCard'>
 
             <?php
 
