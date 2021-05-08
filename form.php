@@ -15,18 +15,16 @@
 <body id="home-view">
      <div class="postcard">
         <div class="text-postcard">
-               <img src="assets/parchemin.png" alt="" id="image">
-               <div class='textCard'>
-
-            <?php
-
-            echo '<p>Dear ' . $_GET['firstname'] . ',</p>
-            <p>Thank you very much for your request about your next destination : ' . $_GET['destination'] . '.</p>
-            <p>We will get back to you as soon as possible on your email address : ' . $_GET['user_email'] . '</p>
-            <p>Best regards,</p>
-            <p>Space Travel Agency.</p>'
-            ?>
-               </div>
+            <img src="assets/parchemin.png" alt="" id="image">
+            <div class='textCard'>
+               <?php
+                  echo '<p>Dear ' . $_GET['firstname'] . ',</p>
+                  <p>Thank you very much for your request about your next destination : ' . $_GET['destination'] . '.</p>
+                  <p>We will get back to you as soon as possible on your email address : ' . $_GET['user_email'] . '</p>
+                  <p>Best regards,</p>
+                  <p>Space Travel Agency.</p>'
+               ?>
+            </div>
         </div>
      </div>
 </body>
