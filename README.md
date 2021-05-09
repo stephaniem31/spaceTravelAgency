@@ -15,8 +15,8 @@ Les contraintes de ce projet :
 **L'utilisation d'un framework CSS est interdite**
 
 **Collaborateurs :**
-- Jérémy GONZALEZ lien vers son [GitHub](https://github.com/JeremyToulouse "Profil de Jérémy GONZALEZ"), 
-- Stéphanie MARIANI lien vers son [GitHub](https://github.com/stephaniem31 "Profil de Stéphanie MARIANI"), 
+- Jérémy GONZALEZ lien vers son [GitHub](https://github.com/JeremyToulouse "Profil de Jérémy GONZALEZ"),  
 - Seïf AL-YAKOOB lien vers son [GitHub](https://github.com/seif-31 "Profil de Seïf AL-YAKOOB"), 
-- Patrick VONGSA
+- Patrick VONGSA lien vers son [GitHub](https://github.com/PatrickVongsa "Profil de Patrick VONGSA"), 
+- Stéphanie MARIANI.
 
